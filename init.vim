@@ -3,6 +3,8 @@ let mapleader = " "
 
 syntax on
 set number
+" 相对行号
+set relativenumber
 
 set encoding=utf-8
 
