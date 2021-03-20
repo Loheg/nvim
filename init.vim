@@ -69,6 +69,8 @@ Plug 'preservim/nerdtree'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+Plug 'mattn/emmet-vim'
+
 
 call plug#end()
 
@@ -92,7 +94,8 @@ nnoremap <leader>v :NERDTreeFind<CR>
 let g:coc_global_extensions = [
 	\ 'coc-json',
 	\ 'coc-vimlsp',
-  	\ 'coc-tsserver',]
+  	\ 'coc-tsserver',
+	\ 'coc-html']
 
 " Tab 补全
 inoremap <silent><expr> <TAB>
