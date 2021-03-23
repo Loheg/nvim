@@ -95,7 +95,8 @@ let g:coc_global_extensions = [
 	\ 'coc-json',
 	\ 'coc-vimlsp',
   	\ 'coc-tsserver',
-	\ 'coc-html']
+	\ 'coc-html',
+	\ 'coc-html-css-support']
 
 " Tab 补全
 inoremap <silent><expr> <TAB>

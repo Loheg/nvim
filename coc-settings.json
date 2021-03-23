@@ -11,5 +11,5 @@
 		"svelte",
 		"c"
 	],
-	"html.autoClosingTags": true,
+	"html.autoClosingTags": true
 }
