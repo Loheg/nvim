@@ -96,7 +96,8 @@ let g:coc_global_extensions = [
 	\ 'coc-vimlsp',
   	\ 'coc-tsserver',
 	\ 'coc-html',
-	\ 'coc-html-css-support']
+	\ 'coc-html-css-support',
+	\ 'coc-rust-analyzer']
 
 " Tab 补全
 inoremap <silent><expr> <TAB>
